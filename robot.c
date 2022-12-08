@@ -4,7 +4,11 @@
  * A file that contains the supporting functions for main() in the
  * ~/robots example source for Software Engineering.
  *
+<<<<<<< HEAD
  * @author Tanya L. Crenshaw, Nathan Schmedake, Daman Oberoi, Martin Cenek, Marcus Rison
+=======
+ * @author Tanya L. Crenshaw, Nathan Schmedake, Daman Oberoi, Martin Cenek, Trystan Wong
+>>>>>>> origin/main
  * @since August 2013
  *
  */
@@ -35,6 +39,7 @@ void robotPrintAscii(void)
   int round = 0;
   for(int i = 0; i < 3; i++) {
 	printBlanks(10, round);
+<<<<<<< HEAD
   	printf("     )_(    \n");
 	printBlanks(10, round);
 	printf("    [0_0]   \n");
@@ -42,6 +47,15 @@ void robotPrintAscii(void)
 	printf("   /|___|\\ \n");
 	printBlanks(10, round);
 	printf("    M   M   \n");
+=======
+  	printf("     i_i    \n");
+	printBlanks(10, round);
+	printf("    [$_$]   \n");
+	printBlanks(10, round);
+	printf("   /|___|\\ \n");
+	printBlanks(10, round);
+	printf("    d   b   \n");
+>>>>>>> origin/main
 
 	round++;
   }
