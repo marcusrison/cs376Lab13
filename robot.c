@@ -39,15 +39,7 @@ void robotPrintAscii(void)
   int round = 0;
   for(int i = 0; i < 3; i++) {
 	printBlanks(10, round);
-<<<<<<< HEAD
-  	printf("     )_(    \n");
-	printBlanks(10, round);
-	printf("    [0_0]   \n");
-	printBlanks(10, round);
-	printf("   /|___|\\ \n");
-	printBlanks(10, round);
-	printf("    M   M   \n");
-=======
+
   	printf("     i_i    \n");
 	printBlanks(10, round);
 	printf("    [$_$]   \n");
@@ -55,7 +47,7 @@ void robotPrintAscii(void)
 	printf("   /|___|\\ \n");
 	printBlanks(10, round);
 	printf("    d   b   \n");
->>>>>>> origin/main
+
 
 	round++;
   }
